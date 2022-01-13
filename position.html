@@ -8,17 +8,27 @@
     <style>
         .swimming{
             padding: 50px;
-            position: relative;
+            /* position: relative; */
             border: 1px solid blue;
         }
+
         .swimming div{
             border : 1px solid red;
             width: 200px;
         }
 
         #ring{
-            /* position: absolute; */
-            top: 0px;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            background-color: yellow;
+            padding: 50px;
+            font-size: 20px;
+        }
+        .dummy{
+            height: 150px;
+            width: 200px;
+            border: 1px solid pink;
         }
     </style>
 </head>
@@ -32,6 +42,24 @@
         <div><img src="images/boy.svg" alt=""></div>
         <div><img id="ring" src="images/ring.svg" alt=""></div>
         <div><img src="/images/water.svg" alt=""></div>
+        <div>
+            <div  class="dummy">hello</div>
+            <div  class="dummy">hello</div>
+            <div  class="dummy">hello</div>
+            <div  class="dummy">hello</div>
+            <div  class="dummy">hello</div>
+            <div  class="dummy">hello</div>
+            <div  class="dummy">hello</div>
+            <div  class="dummy">hello</div>
+            <div  class="dummy">hello</div>
+            <div  class="dummy">hello</div>
+            <div  class="dummy">hello</div>
+            <div  class="dummy">hello</div>
+            <div  class="dummy">hello</div>
+            <div  class="dummy">hello</div>
+            <div  class="dummy">hello</div>
+            <div  class="dummy">hello</div>
+        </div>
     </section>
 </body>
 </html>
